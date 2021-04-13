@@ -10,10 +10,10 @@ while(utenteNumero.length !=4){
 }
 
 var split = utenteNumero.toString().split('');
-console.log(split);
-
 somma = 0;
 for(var i = 0; i < split.length ; i++){
   var numUnita = parseInt(split[i]);
   somma += numUnita;
 }
+
+document.getElementById("text").innerHTML = somma;
