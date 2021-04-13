@@ -2,9 +2,10 @@
 
 
 somma = 0;
-for(var i = 0; i < 10; i++){
+for(var i = 0; i <= 10; i++){
   somma += i;
 }
 
 var media =parseInt(somma / 10);
-console.log(media);
+
+document.getElementById("output").innerHTML = media;
